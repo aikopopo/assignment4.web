@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links a:hover{
+    color: pink;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.reg-form{
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #cccccc;
+}
+
+.names,
+.emails,
+.texts{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea{
+    height: 120px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    border-color: #007bff;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
